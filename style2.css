@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.Logo a{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.Coffie ul li img{
+    height: 32px;
+    margin: 4px;
+}
+
+.Coffie ul{
+    margin-left: 80%;
+}
+
+.Navbar{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 233, 210);
+    color: #432603;
+    opacity:  1.90;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    padding: 0 30x;
+    z-index: 1;
+    border-bottom: 2px solid rgb(209, 133, 72);
+}
+
+.Navbar a{
+    opacity:  1.50;
+    color: #432603;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 10px;
+    margin: 5px;
+}
+
+.Navbar ul{
+    opacity:  1.50;
+    display: flex;
+}
+
+.Navbar img{
+    padding: 10px;
+    opacity:  1.50;
+    height: 70px;
+    text-align: center;
+}
+
+nav a:hover{
+    background: rgba(255, 210, 162, 0.555);
+    transition: .5s;
+}
+
+.Logo {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1200px){
+    
+.Coffie a{
+    display: none;
+}
+}
+
+
+
+.foot-cont{
+    background-color: #241400;
+    color: bisque;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    padding: 30px 10%;
+    align-self: center;
+}
+
+
+.foot-cont ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 5%; 
+}
+
+.foot{
+    margin: auto;
+}
+
+.foot a{
+    color: aliceblue;
+    font-size: 15px;
+    margin: 3px;
+}
+
+.finalfoot{
+    background-color: #241400;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.finalfoot p{
+    padding: 5% 0 0;
+}
+
+.socials i{
+    color: #ffffff;
+    display: inline;
+    margin: 30px;
+}

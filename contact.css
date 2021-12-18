@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(43, 62%, 82%);
+    padding-top: 70px;
+}
+
+
+.Container-Form{
+    text-align: center;
+    background-color: azure;
+}
+.Container-Form h1{
+    padding: 0px;
+}
+
+.call-Forms{
+    background-color: rgb(252, 236, 208);
+    padding: 5%;
+    width: 500px;
+    margin: auto;
+}
+.call-Forms p{
+    margin-top: 20px;
+
+}
+
+
+.Form-Control input {
+    padding: 12px;
+    border-radius: 30px;
+    width: 100%;
+    border: 3px solid #c26b00;
+}
+
+.error-hit{
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input.Invalid{
+    border: 2px solid red;
+
+}
+.hidden{
+    display: none;
+ }
+
+ .Question input{
+     border-radius: 20px;
+     padding: 10%;
+     width: 100%;
+     border: 3px solid #643900;
+
+ }
+
+.submit-btn{
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #432603;
+    border: none;
+} 
+:hover.submit-btn{
+    color: #432603;
+    background-color:rgb(255, 193, 101) ;
+    cursor: pointer;
+    
+}
+
+.thanks{
+    padding: 5% 10%;
+    
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.thanks button{
+    margin: auto;
+    height: 60px;
+    width: 30%;
+    color: whitesmoke;
+    background-color: #432603;
+    border-radius: 30px;
+    border: none;
+}
+
+:hover.thanks button{
+    color: #432603;
+    background-color:rgb(255, 193, 101) ;
+    cursor: pointer;
+    
+}
